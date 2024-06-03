@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Silkscreen:wght@400;700&display=swap');
+
+:root{
+    --cor-da-letra:rgb(182, 147, 252);
+    --cor-de-fundo:rgb(86, 12, 206);
+    --fundo-senha:rgb(37, 0, 105);
+    --fundo-texto:rgb(140, 84, 245);
+    --borda:white;
+    --fonte:"Cinzel", serif;
+    --fonte2:"Silkscreen", "sans-serif";
+
+}
+
+body{
+    color: var(--cor-da-letra);
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte);
+    font-size: 20px;
+}
+
+.titulo-principal{
+    font-size: 50px;
+    font-family: var(--fonte2);
+    color:rgb(0, 0, 0);
+}
