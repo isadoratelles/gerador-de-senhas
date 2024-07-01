@@ -23,6 +23,8 @@ body{
 
     text-align: center;
     font-size: 35px;
+    width:1200px;
+    margin:0 auto;
     }
     
     .img{
@@ -64,4 +66,17 @@ body{
 
 #campo-senha:focus{
     outline:none;
+}
+
+.parametro{
+    background-color: var(--fundo-texto);
+    border: 5px solid var(--borda);
+    margin-top:50px;
+    padding: 10px;
+}
+
+.parametro-titulo{
+    font-family: var(--fonte2);
+    font-size: 40px;
+    color: rgb(37, 0, 105);
 }
