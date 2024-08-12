@@ -105,10 +105,21 @@ body{
 }
 
 .parametro-senha-botao{
-    background-color: aqua;
-    color: black;
+    background-color:rgb(86, 12, 206);
+    color: rgb(182, 147, 252);
     font-size: 24px;
     border:2px;
     padding: 24px;
     cursor: pointer;
+}
+
+label{
+    font-size: 70%;
+}
+
+.parametro-senha-checkbox{
+    height:10% ;
+    width:90% ;
+    cursor: pointer;
+    color: rgb(86, 12, 206);;
 }
