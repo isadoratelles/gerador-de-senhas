@@ -121,5 +121,20 @@ label{
     height:10% ;
     width:90% ;
     cursor: pointer;
-    color: rgb(86, 12, 206);;
+    color: var(--fundo-senha);
+    margin-top: 0%;
+}
+
+.barra{
+    background-color: var(--cor-de-fundo);
+    height: 40px;
+    width: 100%;
+}
+
+.fraca{
+    height: 40px;
+    width: 30%;
+    background-color: red;
+    position:relative;
+    bottom:40px;
 }
