@@ -102,11 +102,12 @@ body{
     border-top: 2px solid var(--borda);
     border-bottom: 2px solid var(--borda);
     margin: 0px;
+    color: var(--fundo-senha);
 }
 
 .parametro-senha-botao{
     background-color:rgb(86, 12, 206);
-    color: rgb(182, 147, 252);
+    color: var(--borda);
     font-size: 24px;
     border:2px;
     padding: 24px;
@@ -135,6 +136,28 @@ label{
     height: 40px;
     width: 30%;
     background-color: red;
+    position:relative;
+    bottom:40px;
+}
+
+.parametro-senha-textos{
+    display:flex;
+    justify-content: space-between;
+    color: var(--fundo-senha);
+}
+
+.media{
+    height: 40px;
+    width: 63%;
+    background-color: rgb(255, 196, 0);
+    position:relative;
+    bottom:40px;
+}
+
+.forte{
+    height: 40px;
+    width: 100%;
+    background-color: rgb(43, 255, 0);
     position:relative;
     bottom:40px;
 }
